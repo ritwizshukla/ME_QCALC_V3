@@ -10,5 +10,14 @@ public class App {
 
     public static void main(String[] args) {
         System.out.println(new App().getGreeting());
+        StandardCalculator calc = new StandardCalculator();
+        calc.add(1, 1);
+        System.out.println(calc.getResult());
+        calc.subtract(1, 2);
+        System.out.println(calc.getResult());
+        calc.divide(2, 5);
+        System.out.println(calc.getResult());
+        calc.multiply(3, 5);
+        System.out.println(calc.getResult());
     }
 }
