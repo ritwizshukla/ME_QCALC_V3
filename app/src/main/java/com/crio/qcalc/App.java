@@ -19,5 +19,11 @@ public class App {
         System.out.println(calc.getResult());
         calc.multiply(3, 5);
         System.out.println(calc.getResult());
+
+        ScientificCalculator cal = new ScientificCalculator();
+        // double result = cal.cubeOf(30.0);
+        // System.out.println("cube is "+ result);
+        int result = cal.modulo(30, 2);
+        System.out.println("modulo =" + result);
     }
 }
